@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Toggle Switch -->
+  <div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+      <input type="checkbox" id="checkbox" />
+      <div class="slider round"></div>
+    </label>
+    <span id="theme-text">☀️ Light Mode</span>
+  </div>
+
   <!-- Snowfall Background Animation -->
   <section class="animated-background">
     <div id="stars1"></div>
@@ -48,8 +57,10 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-      <p>Made with ❤️ by You</p>
+      <p>Made with ❤️ by Alex B.</p>
     </footer>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
